@@ -67,13 +67,6 @@ def vigenere_blaise(texte, cle, mode="chiffrer"):
     return result
 
 
-# Test
-# msg = "L'ALGORITHME DE VIGENERE"
-# key = "PYTHON"
-# code = vigenere_blaise(msg, key)
-# print(f"Chiffré : {code}")
-# print(f"Original: {vigenere_blaise(code, key, 'dechiffrer')}")
-
 
 
 
@@ -90,12 +83,3 @@ def substitution(texte, cle, mode='chiffrer'):
         table = str.maketrans(cle + cle.lower(), alphabet + alphabet.lower())
         
     return texte.translate(table)
-
-# Test
-# ma_cle = generer_cle_aleatoire()
-# print(f"Clé utilisée : {ma_cle}")
-
-# message = "Ceci est un secret de substitution"
-# code = substitution(message, ma_cle)
-# print(f"Chiffré : {code}")
-# print(f"Original: {substitution(code, ma_cle, 'dechiffrer')}")
