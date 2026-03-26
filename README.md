@@ -23,3 +23,13 @@ Ce projet a pour but de :
 - Python
 
 ## 📁 Structure du projet
+PROGRAMME DE CHIFFREMENT
+|
+|
+|--modules
+|   |
+|   |--__pycache__
+|   |-__init__.py
+|   |-function.py
+|--main.py
+|--README.md

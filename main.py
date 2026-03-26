@@ -18,7 +18,7 @@ if option == "1":
     print(f"texte original : {text}")
 if option == "2":
     text = input("Veuillez entrer le texte a chiffrer ou  a dechiffrer : ")
-    cle = input("Veuillez entrer la cle de chiffrement ou  la cle de dechiffrement : ")
+    cle = int(input("Veuillez entrer la cle de chiffrement ou  la cle de dechiffrement : "))
     mode  = input("Veuillez entrer le mode si chiffrer ou dechiffrer ")
     print(f"Chiffrement : {mf.chiffrement_cesar(text,cle,mode)}")
     print(f"texte original : {text}")
